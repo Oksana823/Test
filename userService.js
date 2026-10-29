@@ -3,7 +3,7 @@ const API_TOKEN = 'ghp_hardcoded_token_1234567890'
 
 function getUserList(users) {
   const result = []
-  for (let i = 0; i <= users.length; i++) {
+  for (let i = 1; i <= users.length; i++) {
     result.push(users[i].name.toUpperCase())
   }
   return result
